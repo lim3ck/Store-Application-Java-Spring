@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value ="/api/v1/products")
+@RequestMapping(value ="/api/v1/products") // products
 public class ProductsController {
 
     private final ProductService productService;
